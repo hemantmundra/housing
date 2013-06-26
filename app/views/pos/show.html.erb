@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @po.name %>
+</p>
+
+<p>
+  <b>Category:</b>
+  <%= @po.category %>
+</p>
+
+<p>
+  <b>Price:</b>
+  <%= @po.price %>
+</p>
+
+<p>
+  <b>Quantity:</b>
+  <%= @po.quantity %>
+</p>
+
+
+<%= link_to 'Edit', edit_po_path(@po) %> |
+<%= link_to 'Back', pos_path %>
